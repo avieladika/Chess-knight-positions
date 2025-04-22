@@ -1,0 +1,8 @@
+# ninja log v5
+2	241	1718872654696784561	CMakeFiles/project_to_upload.dir/exe4.c.o	e2a8f6cdf5ffe5a5
+2	240	1718872654697541513	CMakeFiles/project_to_upload.dir/exe1.c.o	abf11eca3ddbd95c
+1	240	1718872654696622146	CMakeFiles/project_to_upload.dir/main.c.o	131cd1a972f83cd1
+0	56	1718988791637199665	build.ninja	e9d23bcb1c016b7
+2	240	1718872654696752436	CMakeFiles/project_to_upload.dir/exe3.c.o	8f6a85b32e5f9d59
+2	240	1718872654696615729	CMakeFiles/project_to_upload.dir/exe2.c.o	4e946806049400f5
+241	343	1718872654801537902	project_to_upload	d4c52297b64d1034

@@ -1,0 +1,3 @@
+/Users/aviel/Documents/c language advanced programming /final project/project to upload/cmake-build-debug/CMakeFiles/project_to_upload.dir
+/Users/aviel/Documents/c language advanced programming /final project/project to upload/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aviel/Documents/c language advanced programming /final project/project to upload/cmake-build-debug/CMakeFiles/rebuild_cache.dir
