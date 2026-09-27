@@ -1,31 +1,30 @@
-Knight's Tour - C Project
+# Knight's Tour in C
 
-This project implements knight movement logic on a 5x5 chessboard. It calculates all valid knight paths from a given position and attempts to find a complete path that covers the entire board.
+An academic data-structures project that explores knight moves on a 5×5 board and searches for a path visiting every square.
 
-Features
+## Highlights
 
-- Builds a move tree (pathTree) from any starting position
-- Finds knight paths that cover the entire board
-- Efficient position and board representation
-- Includes memory cleanup functions
+- Arrays of legal knight moves.
+- A tree of possible paths from a starting position.
+- Linked lists to represent the resulting tour.
+- Explicit dynamic-memory management.
 
-Structures
+## Build and use
 
-- chessPosList: linked list of positions
-- pathTree: tree structure of knight moves
-- chessPosArray: array of possible knight moves
+The repository includes a CMake configuration requiring CMake 3.27 and requesting C23:
 
-Key Functions
+```sh
+cmake -S . -B build
+cmake --build build
+./build/project_to_upload
+```
 
-- findAllPossibleKnightPaths
-- findKnightPathCoveringAllBoard
-- validKnightMoves
+Enter a position such as `A1`, followed by Enter. Valid coordinates are `A`–`E` and `1`–`5`. The program displays a covering path when found, or reports that no tour exists.
 
-Board
+## Implementation
 
-- 5x5 board with columns A–E and rows 1–5
-- Positions are represented as two-character arrays
+`validKnightMoves` enumerates legal moves; `findAllPossibleKnightPaths` constructs the search tree; `findKnightPathCoveringAllBoard` searches for a complete tour. Types and declarations are in `files.h`; implementations are split across `exe1.c` through `exe4.c`.
 
-Usage
+## Limitations
 
-Include the headers, call the knight path functions with a starting position, and display the result using display or print functions.
+The exhaustive path tree can consume significant time and memory. The source currently declares `void main()`, which strict standard-conforming compilers may reject; portability cleanup is still needed. This repository preserves the original algorithm rather than claiming an optimized solver.

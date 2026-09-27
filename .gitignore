@@ -1,0 +1,12 @@
+
+# Local IDE and build files
+.DS_Store
+.idea/
+.vs/
+cmake-build-*/
+build/
+Debug/
+Release/
+x64/
+*.user
+*.suo
